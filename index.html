@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="icon_bar">
+            <button id="undo" class="btn formatebtn"><img src="undo.png" alt=""></button>
+            <button id="redo" class="btn formatebtn"><img src="redo.png" alt=""></button>
+            <select name="font" id="font_type">
+                <option value="Arial, sans-serif">Arial</option>
+                <option value="Arial Black, Gadget, sans-serif">Arial Black</option>
+                <option value="Open Sans, sans-serif">Open Sans</option>
+                <option value="'Playwright AR', cursive">Playwright AR</option>
+                <option value="'Nunito', sans-serif">Nunito</option>
+                <option value="'Lato', sans-serif">Lato</option>
+                <option value="'Roboto Mono', monospace">Roboto Mono</option>
+            </select>
+            <select name="font size" class="font_size_container" >
+                <option value="12" id="font_size" class="12">12px</option>
+                <option value="18" id="font_size" class="14" selected>14px</option>
+                <option value="14" id="font_size" class="16">16px</option>
+                <option value="16" id="font_size" class="18">18px</option>
+                <option value="18" id="font_size" class="20">20px</option> 
+                <option value="22" id="font_size" class="25">25px</option>
+            </select>
+            <button class="btn stylebtn" id="bold"><img src="bold.png" alt=""></button>
+            <button class="btn stylebtn" id="italic"><img src="italic.png" alt=""></button>
+            <button class="btn stylebtn" id="underline"><img src="underline.png" alt=""></button>
+            <button class="btn stylebtn" id="strikethrough"><img src="strikethrough.png" alt=""></button>
+            <button class="btn stylebtn" id="superscript"><img src="superscript.png" alt=""></button>
+            <button class="btn stylebtn" id="subscript"><img src="subscript.png" alt=""></button>
+            <button class="btn alignbtn" id="justifyLeft"><img src="align-left.png" alt=""></button>
+            <button class="btn alignbtn" id="justifyRight"><img src="align-right.png" alt=""></button>
+            <button class="btn alignbtn" id="justifyCenter"><img src="align-center.png" alt=""></button>
+            <button id="insertOrderedList" class="btn alignbtn numberedlist " ><img src="numberedlist.png" alt=""></button>
+            <button class="btn alignbtn bulletlist " id="insertUnorderedList"><img src="bulletlist.png" alt=""></button>
+            
+        </div>
+        <div class="input_area">
+           <div class="text_area" contenteditable="true"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
